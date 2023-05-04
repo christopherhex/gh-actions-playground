@@ -17,3 +17,5 @@ jobs:
         with:
           release-type: simple
           package-name: gh-playground
+          extra-files: |
+            testspec.podspec
