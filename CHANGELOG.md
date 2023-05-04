@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.0.1...v1.1.0) (2023-05-04)
+
+
+### Features
+
+* update release process ([0db848e](https://github.com/christopherhex/gh-actions-playground/commit/0db848e1b9d1a8df932f58b684d0b6b09bf4a9d2))
+
+
+### Bug Fixes
+
+* add missing file ([df90a50](https://github.com/christopherhex/gh-actions-playground/commit/df90a50bb8f27d94c0568a439fe70535d0a8944d))
+
 ## [1.0.1](https://github.com/christopherhex/gh-actions-playground/compare/v1.0.0...v1.0.1) (2023-05-04)
 
 

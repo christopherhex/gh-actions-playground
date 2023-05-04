@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name                      = 'someSDK'
-    s.version                   = '1.0.0' # x-release-please-version
+    s.version                   = '1.1.0' # x-release-please-version
     s.summary                   = 'someSDK'
     s.homepage                  = 'https://github.com/blabla/'
     s.source                    = { :git => s.homepage + 'test.git', :tag => s.version}
