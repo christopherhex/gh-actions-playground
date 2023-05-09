@@ -7,9 +7,8 @@
                 {
                     "type": "xml",
                     "path": "/plugin.xml",
-                    "xpath": "//plugin/version"
-                },
-                "testspec.podspec"
+                    "xpath": "/plugin/version"
+                }
             ]
         }
     }
