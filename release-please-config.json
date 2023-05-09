@@ -1,6 +1,6 @@
 {
     "packages": {
-        "gh-playground": {
+        "/": {
             "release-type": "simple",
             "bump-minor-pre-major": true,
             "extra-files": [
