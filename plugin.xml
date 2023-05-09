@@ -3,7 +3,7 @@
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>tadaam-sensor-sdk</name>
-    <version>1.0.1</version>
+    <version>1.1.0</version>
     <js-module name="tadaam-cordova-sensor-sdk" src="www/tadaam-sensor-sdk.js">
         <clobbers target="cordova.plugins.tadaamCordovaSDK" />
     </js-module>
