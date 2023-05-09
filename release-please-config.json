@@ -8,7 +8,7 @@
                 {
                     "type": "xml",
                     "path": "/plugin.xml",
-                    "xpath": "/plugin/@version"
+                    "xpath": "//plugin/@version"
                 }
             ]
         }
