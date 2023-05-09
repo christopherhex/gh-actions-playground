@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.1.0...v1.2.0) (2023-05-09)
+
+
+### Features
+
+* some great change ([93bae14](https://github.com/christopherhex/gh-actions-playground/commit/93bae14d2aba0b0ac50afe25f0d9f1cc0b65eb7b))
+
 ## [1.1.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.0.1...v1.1.0) (2023-05-09)
 
 
