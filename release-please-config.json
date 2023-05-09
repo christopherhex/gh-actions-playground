@@ -7,7 +7,7 @@
                 "testspec.podspec",
                 {
                     "type": "xml",
-                    "path": "plugin.xml",
+                    "path": "./plugin.xml",
                     "xpath": "/plugin/@version"
                 }
             ]
