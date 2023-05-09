@@ -4,12 +4,12 @@
             "release-type": "simple",
             "bump-minor-pre-major": true,
             "extra-files": [
-                "testspec.podspec",
                 {
                     "type": "xml",
-                    "path": "/plugin.xml",
-                    "xpath": "//plugin/@version"
-                }
+                    "path": "plugin.xml",
+                    "xpath": "//plugin/version"
+                },
+                "testspec.podspec"
             ]
         }
     }
