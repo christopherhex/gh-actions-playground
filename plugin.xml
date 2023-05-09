@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.blabloem.sensor-cordova-sensor-sdk" version="0.0.2"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>tadaam-sensor-sdk</name>
+    <js-module name="tadaam-cordova-sensor-sdk" src="www/tadaam-sensor-sdk.js">
+        <clobbers target="cordova.plugins.tadaamCordovaSDK" />
+    </js-module>
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <feature name="tadaamCordovaSDK">
+                <param name="ios-package" value="tadaamCordovaSDK" />
+            </feature>
+        </config-file>
+        <podspec>
+            <pods use-frameworks="true">
+                <pod tag="v0.1.0" git="git@github.com:tadaam/ios-native-sensor-sdk.git" name="tadaamsensorSDK" />
+            </pods>
+        </podspec>
+        <source-file src="src/ios/tadaam-sensor-sdk.swift" />
+    </platform>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="tadaamCordovaSDK">
+                <param name="android-package" value="com.blabloem.tadaam_cordova_sdk.tadaamCordovaSDK" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml">
+            <uses-permission android:name="android.permission.sensor" />
+        </config-file>
+        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+        <source-file src="src/android/tadaamCordovaSDK.java" target-dir="src/com/blabloem/tadaam_cordova_sdk" />
+    </platform>
+</plugin>
