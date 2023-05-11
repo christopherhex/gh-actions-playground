@@ -5,6 +5,8 @@ Playground repository to test and try stuff out with GH Actions
 
 # Some big change
 
+# some other new feature
+
 ## Functionalities 
 
 ### Use release-please
