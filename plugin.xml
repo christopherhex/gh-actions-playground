@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
+<!-- x-release-please-start-version -->
 <plugin id="com.blabloem.sensor-cordova-sensor-sdk" version="1.1.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- x-release-please-end -->
     <name>tadaam-sensor-sdk</name>
     <version>1.1.0</version>
     <js-module name="tadaam-cordova-sensor-sdk" src="www/tadaam-sensor-sdk.js">
