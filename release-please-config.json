@@ -5,6 +5,7 @@
             "bump-minor-pre-major": true,
             "extra-files": [
                 "testspec.podspec",
+                "README.md",
                 {
                     "type": "xml",
                     "path": "/plugin.xml",
