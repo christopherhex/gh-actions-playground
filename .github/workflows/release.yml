@@ -14,9 +14,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           release-type: simple
           extra-files: |
             README.md
             plugin.xml
             testspec.podspec
+    outputs:
+      release-created: ${{ steps.release.outputs.release_created }}
+  publish:
+    runs-on: ubuntu-latest
+    needs: release-new-version
+    if: ${{needs.release-new-version.outputs.release-created}}
+    steps:
+      - name: Publish
+        run: echo `We are publishing this`
