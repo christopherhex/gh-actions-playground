@@ -10,7 +10,7 @@ Test if release please is also able to update versions
 
 # Some big change
 
-The latest release is `v1.2.0` <!-- x-release-please-version -->
+The latest release is `v1.3.0` <!-- x-release-please-version -->
 
 # some other new feature
 
