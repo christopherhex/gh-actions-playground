@@ -5,6 +5,9 @@ Playground repository to test and try stuff out with GH Actions
 # Release me please 
 Test if release please is also able to update versions 
 
+# Features 
+* New Big Feature
+
 # Some big change
 
 The latest release is `v1.2.0` <!-- x-release-please-version -->
