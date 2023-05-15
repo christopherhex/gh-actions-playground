@@ -1,0 +1,17 @@
+{
+    "packages": {
+        ".": {
+            "release-type": "simple",
+            "extra-files": [
+                "README.md",
+                "plugin.xml",
+                "testspec.podspec",
+                {
+                    "type": "json",
+                    "path": "test-json.json",
+                    "jsonpath": "$.version"
+                }
+            ]
+        }
+    }
+}
