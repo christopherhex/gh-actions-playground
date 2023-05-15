@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.2.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.1.0...v1.2.0) (2023-05-15)
+
+
+### Features
+
+* add new feature ([11cacbf](https://github.com/christopherhex/gh-actions-playground/commit/11cacbf9057c56d83f7e7bcf49e0f1ca67e6f21f))
+* attempt to simplify release please config ([25e0ddb](https://github.com/christopherhex/gh-actions-playground/commit/25e0ddbaac982f9b7d220066f6a45b0b1a187271))
+* Attempt update with manifest to combine files and json stuff ([090215a](https://github.com/christopherhex/gh-actions-playground/commit/090215a41a995685699dcf72f20c94d6dac6f819))
+* some great change ([93bae14](https://github.com/christopherhex/gh-actions-playground/commit/93bae14d2aba0b0ac50afe25f0d9f1cc0b65eb7b))
+* update relase process with publish ([419e997](https://github.com/christopherhex/gh-actions-playground/commit/419e997267b5f8ee54817745551624f4c3a11e49))
+
+
+### Bug Fixes
+
+* improve release type ([1be85ac](https://github.com/christopherhex/gh-actions-playground/commit/1be85ac734836bc13b198bede635f980e258953d))
+
 ## [1.2.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.1.0...v1.2.0) (2023-05-11)
 
 
