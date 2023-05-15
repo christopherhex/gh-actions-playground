@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.2.0...v1.3.0) (2023-05-15)
+
+
+### Features
+
+* Attempt update with manifest to combine files and json stuff ([090215a](https://github.com/christopherhex/gh-actions-playground/commit/090215a41a995685699dcf72f20c94d6dac6f819))
+* Introduce new big feature ([5add773](https://github.com/christopherhex/gh-actions-playground/commit/5add77377ff1a151a5b7e6b7eb65723962e372f3))
+
 ## [1.2.0](https://github.com/christopherhex/gh-actions-playground/compare/v1.1.0...v1.2.0) (2023-05-11)
 
 
